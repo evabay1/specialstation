@@ -19,7 +19,7 @@ $include map_vote.txt
 # There are various options which are hard-locked for security reasons.
 
 ## Server name: This appears at the top of the screen in-game and in the BYOND hub. Uncomment and replace 'tgstation' with the name of your choice.
-# SERVERNAME tgstation
+SERVERNAME Special Station 13
 
 ## Server SQL name: This is the name used to identify the server to the SQL DB, distinct from SERVERNAME as it must be at most 32 characters.
 # SERVERSQLNAME tgstation
@@ -104,13 +104,13 @@ ALLOW_ADMIN_ASAYCOLOR
 ID_CONSOLE_JOBSLOT_DELAY 30
 
 ## allow players to initiate a restart vote
-#ALLOW_VOTE_RESTART
+ALLOW_VOTE_RESTART
 
 ## allow players to initiate a map-change vote
-#ALLOW_VOTE_MAP
+ALLOW_VOTE_MAP
 
 ## allow players to rock the vote, or to vote on the map again if they didn't like the last results
-#ALLOW_ROCK_THE_VOTE
+ALLOW_ROCK_THE_VOTE
 
 ## the number of times you wish to allow players to rock the vote in a given shift
 MAX_ROCKING_VOTES 1
@@ -131,14 +131,13 @@ VOTE_PERIOD 600
 ## 0 = Cannot respawn (default)
 ## 1 = Can respawn
 ## 2 = Can respawn if choosing a different character
-ALLOW_RESPAWN 0
+ALLOW_RESPAWN 2
 
 ## Respawn delay (deciseconds), which doesn't allow to return to lobby
 RESPAWN_DELAY 0
 
 ## set a hosted by name for unix platforms
-HOSTEDBY Yournamehere
-
+HOSTEDBY eve
 ## Uncomment this to stop people connecting to your server without a registered ckey. (i.e. guest-* are all blocked from connecting)
 GUEST_BAN
 
@@ -184,7 +183,7 @@ IPINTEL_REJECT_BAD
 # FORUMURL http://tgstation13.org/phpBB/index.php
 
 ## Wiki address
-# WIKIURL http://www.tgstation13.org/wiki
+WIKIURL https://web.archive.org/web/20211011024744/https://tgstation13.org/wiki/Jobs
 
 ## Rules address
 # RULESURL http://www.tgstation13.org/wiki/Rules
